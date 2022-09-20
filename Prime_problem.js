@@ -1,5 +1,4 @@
-function checkPrime(){
-let num = 13;
+function checkPrime(num){
 let factor = 0;
   for(let i = 0; i<=num ; i++){
      if(num%i===0){
@@ -11,4 +10,8 @@ let factor = 0;
   }else{
      console.log("Not a Prime Number");
   }
+
+
 }
+
+checkPrime(13);
